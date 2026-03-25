@@ -1,0 +1,33 @@
+<svg width="720" height="980" viewBox="0 0 720 980" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Silhueta de homem com degrade</title>
+  <desc id="desc">Imagem vetorial estilizada de um homem ao centro com brilho cosmico.</desc>
+  <defs>
+    <linearGradient id="bgFade" x1="360" y1="90" x2="360" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#CFE7FF" stop-opacity="0.95"/>
+      <stop offset="0.48" stop-color="#79C7F6" stop-opacity="0.72"/>
+      <stop offset="1" stop-color="#162C47" stop-opacity="0.12"/>
+    </linearGradient>
+    <linearGradient id="bodyGrad" x1="360" y1="220" x2="360" y2="910" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5F9FF" stop-opacity="0.95"/>
+      <stop offset="0.35" stop-color="#8ED1FF" stop-opacity="0.88"/>
+      <stop offset="1" stop-color="#0A1525" stop-opacity="0.82"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(360 320) rotate(90) scale(360 240)">
+      <stop stop-color="#FFE99D" stop-opacity="0.42"/>
+      <stop offset="0.6" stop-color="#7FCFFF" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#0A1525" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <ellipse cx="360" cy="330" rx="290" ry="240" fill="url(#halo)"/>
+
+  <path d="M364 180C295 180 243 238 243 307C243 354 268 395 305 418C319 427 323 442 322 457L318 488C317 503 327 515 343 515H380C396 515 406 503 405 488L401 457C400 442 404 427 418 418C455 395 480 354 480 307C480 238 429 180 364 180Z" fill="url(#bodyGrad)"/>
+
+  <path d="M180 880C191 700 265 575 360 575C455 575 529 700 540 880" stroke="url(#bodyGrad)" stroke-width="164" stroke-linecap="round"/>
+
+  <path d="M244 380C286 420 430 420 473 380" stroke="#E8F4FF" stroke-opacity="0.55" stroke-width="14" stroke-linecap="round"/>
+
+  <path d="M233 890C275 810 309 765 360 765C412 765 446 810 487 890" stroke="#D0EAFF" stroke-opacity="0.38" stroke-width="28" stroke-linecap="round"/>
+
+  <ellipse cx="360" cy="894" rx="200" ry="42" fill="url(#bgFade)" fill-opacity="0.26"/>
+</svg>
